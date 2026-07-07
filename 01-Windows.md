@@ -1,53 +1,98 @@
-# 🪟 Windows
+# 🪟 Windows para Suporte Técnico
 
-## Visão geral
+## Objetivo
 
-O Windows é o sistema operacional mais utilizado em ambientes corporativos e faz parte da rotina de profissionais de Suporte Técnico e Infraestrutura.
+Este documento reúne ferramentas, comandos e procedimentos utilizados no suporte técnico em ambientes Windows.
 
-## Principais atividades
+---
 
-- Instalação de softwares
-- Configuração de usuários
-- Resolução de problemas
-- Gerenciamento de serviços
-- Atualizações
-- Compartilhamentos de rede
+# Ferramentas importantes
 
-## Ferramentas importantes
+## Gerenciador de Tarefas
 
-- Gerenciador de Tarefas
-- Gerenciamento de Computador
-- Visualizador de Eventos
+Utilizado para:
+
+- Encerrar processos
+- Monitorar consumo de CPU
+- Monitorar memória
+- Identificar aplicações travadas
+
+---
+
+## Gerenciamento de Computador
+
+Permite administrar:
+
+- Usuários locais
+- Compartilhamentos
+- Dispositivos
 - Serviços
-- CMD
-- PowerShell
 
-## Comandos úteis
+---
+
+## Visualizador de Eventos
+
+Utilizado para analisar:
+
+- Erros do Windows
+- Falhas de aplicativos
+- Eventos de segurança
+- Logs do sistema
+
+---
+
+# Comandos úteis
+
+## ipconfig
 
 ```cmd
-ipconfig
+ipconfig /all
 ```
 
-Mostra as configurações de rede.
+Mostra todas as configurações de rede.
+
+---
+
+## ping
 
 ```cmd
-ping
+ping google.com
 ```
 
-Testa a comunicação.
+Verifica conectividade.
+
+---
+
+## sfc
 
 ```cmd
 sfc /scannow
 ```
 
-Verifica arquivos do sistema.
+Verifica arquivos corrompidos do Windows.
+
+---
+
+## gpupdate
 
 ```cmd
 gpupdate /force
 ```
 
-Atualiza políticas do Windows.
+Atualiza políticas do Active Directory.
 
-## Minha experiência
+---
 
-Durante minha atuação profissional utilizei diariamente o Windows para suporte aos usuários, instalação de aplicações, diagnóstico de falhas, resolução de incidentes e suporte remoto.
+# Problemas comuns
+
+- Lentidão do computador
+- Falta de espaço em disco
+- Impressora indisponível
+- Usuário sem acesso
+- Aplicações travando
+
+---
+
+# Minha experiência
+
+Na minha atuação profissional utilizei essas ferramentas para diagnóstico de problemas, suporte aos usuários, instalação de aplicações, análise de eventos do Windows e resolução de incidentes.

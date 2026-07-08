@@ -2,9 +2,10 @@
 
 ## Objetivo
 
-Este documento reúne ferramentas, comandos e procedimentos utilizados no suporte técnico em ambientes Windows.
+Este documento reúne ferramentas, comandos e procedimentos utilizados no
+suporte técnico em ambientes Windows.
 
----
+------------------------------------------------------------------------
 
 # Ferramentas importantes
 
@@ -12,87 +13,82 @@ Este documento reúne ferramentas, comandos e procedimentos utilizados no suport
 
 Utilizado para:
 
-- Encerrar processos
-- Monitorar consumo de CPU
-- Monitorar memória
-- Identificar aplicações travadas
-
----
+-   Encerrar processos
+-   Monitorar consumo de CPU
+-   Monitorar memória
+-   Identificar aplicações travadas
 
 ## Gerenciamento de Computador
 
 Permite administrar:
 
-- Usuários locais
-- Compartilhamentos
-- Dispositivos
-- Serviços
-
----
+-   Usuários locais
+-   Compartilhamentos
+-   Dispositivos
+-   Serviços
 
 ## Visualizador de Eventos
 
 Utilizado para analisar:
 
-- Erros do Windows
-- Falhas de aplicativos
-- Eventos de segurança
-- Logs do sistema
+-   Erros do Windows
+-   Falhas de aplicativos
+-   Eventos de segurança
+-   Logs do sistema
 
----
+------------------------------------------------------------------------
 
 # Comandos úteis
 
 ## ipconfig
 
-```cmd
+``` cmd
 ipconfig /all
 ```
 
 Mostra todas as configurações de rede.
 
----
-
 ## ping
 
-```cmd
+``` cmd
 ping google.com
 ```
 
 Verifica conectividade.
 
----
-
 ## sfc
 
-```cmd
+``` cmd
 sfc /scannow
 ```
 
 Verifica arquivos corrompidos do Windows.
 
----
-
 ## gpupdate
 
-```cmd
+``` cmd
 gpupdate /force
 ```
 
 Atualiza políticas do Active Directory.
 
----
+------------------------------------------------------------------------
 
 # Problemas comuns
 
-- Lentidão do computador
-- Falta de espaço em disco
-- Impressora indisponível
-- Usuário sem acesso
-- Aplicações travando
+-   Lentidão do computador
+-   Falta de espaço em disco
+-   Impressora indisponível
+-   Usuário sem acesso
+-   Aplicações travando
 
----
+------------------------------------------------------------------------
 
 # Minha experiência
 
-Na minha atuação profissional utilizei essas ferramentas para diagnóstico de problemas, suporte aos usuários, instalação de aplicações, análise de eventos do Windows e resolução de incidentes.
+Na minha atuação profissional utilizei essas ferramentas para
+diagnóstico de problemas, suporte aos usuários, instalação de
+aplicações, análise de eventos do Windows e resolução de incidentes.
+
+> **Observação:** Este documento será atualizado continuamente com novos
+> procedimentos, comandos e experiências práticas.

@@ -1,81 +1,18 @@
-# 🌐 Redes de Computadores para Suporte Técnico
+# 🌐 Redes de Computadores e Conectividade Corporativa
 
-## Objetivo
+Baseado na formação acadêmica (UNIP) e na prática em ambientes bancários, este módulo detalha a infraestrutura necessária para a alta disponibilidade de sistemas distribuídos.
 
-Este documento reúne os principais conceitos, comandos e procedimentos
-utilizados no diagnóstico de problemas de rede em ambientes
-corporativos.
+## 🛠️ Protocolos e Serviços de Negócio
+- **TCP/IP e DNS:** Fundamentos para a comunicação de microserviços e arquiteturas distribuídas [7, 12].
+- **VPN & SD-WAN:** Implementação de túneis seguros para acesso remoto e interconexão de filiais com foco em baixa latência.
+- **Fluxos de Integração:** Gestão de protocolos de transferência de arquivos críticos (**SFTP, EDI e Mensagerias**) essenciais para o processamento financeiro [9, 10, 13].
+- **Firewall & Proxy:** Noções de regras de liberação de portas para APIs REST e comunicação com fornecedores externos.
 
-## Conceitos essenciais
+## 🔍 Diagnóstico e Sustentação
+Ferramentas para garantir a continuidade operacional em ambientes de alta criticidade [3, 14]:
+- `ping` / `tracert`: Diagnóstico de rotas e latência em redes SD-WAN.
+- `telnet` / `nc` (Netcat): Validação de conectividade com endpoints de APIs.
+- `nslookup` / `dig`: Resolução de problemas de apontamento em ambientes híbridos.
 
--   Endereço IP
--   Máscara de rede
--   Gateway
--   DNS
--   DHCP
-
-## Comandos úteis
-
-### Verificar configuração de rede
-
-``` cmd
-ipconfig /all
-```
-
-Exibe IP, gateway, DNS e outras configurações.
-
-### Testar conectividade
-
-``` cmd
-ping 8.8.8.8
-```
-
-Verifica se há comunicação com outro equipamento.
-
-### Descobrir o caminho até um destino
-
-``` cmd
-tracert google.com
-```
-
-Mostra por quais roteadores a conexão passa.
-
-### Consultar DNS
-
-``` cmd
-nslookup google.com
-```
-
-Verifica se o DNS está resolvendo nomes corretamente.
-
-## Checklist de diagnóstico
-
-1.  O cabo de rede está conectado?
-2.  O Wi-Fi está ativo?
-3.  O computador recebeu um IP?
-4.  O gateway responde ao ping?
-5.  O DNS está funcionando?
-6.  O problema afeta apenas um usuário ou toda a empresa?
-
-## Problemas comuns
-
--   Sem acesso à internet
--   Conexão lenta
--   DNS indisponível
--   IP duplicado
--   Perda de comunicação com servidores
-
-## Minha experiência
-
-Durante minha atuação em suporte técnico utilizei comandos como
-**ipconfig**, **ping**, **tracert** e **nslookup** para identificar
-problemas de conectividade, validar configurações de rede e agilizar o
-diagnóstico de incidentes.
-
-## Perguntas comuns em entrevistas
-
--   Qual a diferença entre IP público e IP privado?
--   Para que serve um servidor DNS?
--   O que faz o DHCP?
--   Quando utilizar o comando `ping`?
--   Para que serve o `tracert`?
+## 🚀 Diferencial Sênior
+Atuação no monitoramento contínuo de ambientes financeiros, assegurando que falhas de rede não impactem o cumprimento de **SLAs** críticos [15, 16].

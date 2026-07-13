@@ -1,56 +1,16 @@
-# ☁️ Microsoft 365 para Suporte Técnico
+# 🔑 Active Directory (AD) e Gestão de Identidades (IAM)
 
-## Objetivo
+Administração de diretórios focada em segurança da informação, governança de acessos e conformidade com requisitos regulatórios do mercado financeiro [4, 18].
 
-Apresentar os principais serviços do Microsoft 365 utilizados no suporte
-técnico e as atividades mais comuns realizadas por analistas.
+## 🏗️ Estrutura e Governança
+- **Unidades Organizacionais (OUs):** Organização lógica alinhada às áreas de negócio (Financeiro, TI, Riscos) para aplicação direcionada de políticas.
+- **Grupos de Segurança:** Implementação do modelo de controle de acesso baseado em funções (RBAC), garantindo o princípio do menor privilégio.
+- **GPOs (Group Policy Objects):** Padronização de segurança em servidores e endpoints, incluindo políticas de auditoria de logon e restrições de software.
 
-## Principais serviços
+## 🛡️ Conformidade e Auditoria
+- **Ciclo de Vida do Usuário:** Processos de provisionamento e desativação imediata (offboarding) para evitar riscos de segurança [15].
+- **Auditoria de Acessos:** Revisão periódica de permissões em pastas de rede e sistemas corporativos para atendimento a auditorias externas.
+- **Ambiente Híbrido:** Gestão integrada entre AD local e **Microsoft Entra ID (Azure AD)** para Single Sign-On (SSO) [14, 16].
 
--   Outlook
--   Teams
--   OneDrive
--   SharePoint
--   Exchange Online
--   Portal de Administração
-
-## Atividades do dia a dia
-
--   Redefinição de senhas
--   Desbloqueio de contas
--   Atribuição de licenças
--   Criação de usuários
--   Suporte ao Outlook
--   Suporte ao Teams
--   Sincronização de contas
-
-## Checklist de atendimento
-
--   Confirmar identidade do usuário
--   Verificar licença atribuída
--   Validar sincronização da conta
--   Testar acesso ao Outlook e Teams
--   Registrar o atendimento
-
-## Problemas comuns
-
--   Outlook não conecta
--   Teams não autentica
--   Caixa de e-mail cheia
--   Usuário sem licença
--   OneDrive não sincroniza
-
-## Minha experiência
-
-Durante minha atuação na Algar Tech e na Newkar prestei suporte a
-usuários em ambientes Microsoft, auxiliando em problemas de
-autenticação, Outlook, contas corporativas, licenciamento e acesso aos
-serviços da Microsoft.
-
-## Perguntas comuns em entrevistas
-
--   O que é o Microsoft 365?
--   Qual a diferença entre Microsoft 365 e Office instalado?
--   O que fazer quando o Outlook não sincroniza?
--   Como verificar se um usuário possui licença?
--   Como solucionar problemas de login no Teams?
+## 📑 Automação de Gestão
+Uso de scripts PowerShell para auditoria de contas inativas, reset de senhas em massa e identificação de bloqueios recorrentes de contas de serviço.

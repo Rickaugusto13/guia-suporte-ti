@@ -1,74 +1,16 @@
-# 🗄️ SQL Server para Analistas de Suporte e Sistemas
+# 🗄️ SQL Server: Análise de Dados e Sustentação de Sistemas
 
-## Objetivo
+O SQL Server é a base fundamental para a investigação de incidentes críticos, validação de regras de negócio e suporte à tomada de decisão [1, 21, 22].
 
-Este documento reúne conceitos, comandos e boas práticas do SQL Server
-utilizados no suporte e na sustentação de sistemas.
+## 📊 Investigação e Auditoria de Dados
+- **Consultas Complexas (T-SQL):** Uso avançado de `JOINs`, `CTEs` e funções de agregação para auditar fluxos financeiros e identificar inconsistências [9, 13, 14].
+- **Validação de Integrações:** Scripts personalizados para validar o processamento de dados vindos de **APIs REST, EDI e SFTP** [7, 23].
+- **Análise de Logs:** Cruzamento de informações do banco de dados com logs de aplicação para identificação de falhas silenciosas.
 
-## Principais conhecimentos
+## ⚙️ Performance e Estabilidade
+- **Troubleshooting de Performance:** Uso do SQL Server Profiler e Extended Events para identificar queries lentas, locks e deadlocks que impactam a produção [9, 14].
+- **Otimização:** Sugestão de índices e refatoração de queries para redução de consumo de recursos.
+- **Manutenção Preventiva:** Acompanhamento de Jobs, validação de Backups e verificação de integridade (DBCC CHECKDB).
 
--   SELECT
--   WHERE
--   ORDER BY
--   GROUP BY
--   INNER JOIN
--   LEFT JOIN
--   Views
--   Stored Procedures
-
-## Consultas básicas
-
-### Buscar todos os registros
-
-``` sql
-SELECT * FROM Clientes;
-```
-
-### Filtrar informações
-
-``` sql
-SELECT Nome, Cidade
-FROM Clientes
-WHERE Cidade = 'São Paulo';
-```
-
-### Ordenar resultados
-
-``` sql
-SELECT *
-FROM Clientes
-ORDER BY Nome;
-```
-
-## Boas práticas
-
--   Evitar `SELECT *` em consultas de produção quando não for
-    necessário.
--   Validar consultas em ambiente de homologação sempre que possível.
--   Comentar consultas complexas.
--   Fazer backup antes de alterações críticas.
-
-## Diagnóstico de incidentes
-
-Checklist:
-
--   Validar se há conexão com o banco.
--   Verificar mensagens de erro.
--   Conferir parâmetros enviados pela aplicação.
--   Analisar logs.
--   Testar a consulta diretamente no SQL Server.
-
-## Minha experiência
-
-Durante minha atuação na SRM Asset utilizei o SQL Server para análise de
-dados, investigação de incidentes, execução de consultas, apoio à
-sustentação de sistemas financeiros e validação de informações para
-usuários e áreas de negócio.
-
-## Perguntas comuns em entrevistas
-
--   Qual a diferença entre INNER JOIN e LEFT JOIN?
--   O que é uma Stored Procedure?
--   Quando utilizar GROUP BY?
--   Como identificar uma consulta lenta?
--   O que é um índice?
+## 🤖 Automação Integrada
+- **Sustentação com Java:** Desenvolvimento e manutenção de automações em **Java** que realizam consultas e processamentos diretos no banco de dados, reduzindo o erro humano e aumentando a eficiência operacional [8, 19, 20, 24, 25].

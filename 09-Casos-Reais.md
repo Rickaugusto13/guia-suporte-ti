@@ -1,16 +1,12 @@
 # 📝 Casos Reais e Projetos de Destaque
 
-Registros de desafios técnicos e soluções implementadas em ambientes bancários e corporativos de alta criticidade [1, 3, 22].
+Detalhes sobre desafios superados e soluções implementadas em ambientes financeiros [2, 5].
 
-## 🏦 Projeto 1: Automação de Processamentos Financeiros
-- **Cenário:** Falhas recorrentes em fluxos financeiros manuais e falta de rastreabilidade [20].
-- **Solução:** Desenvolvimento de solução em Java integrada ao SQL Server para monitoramento e processamento automático [16, 23].
-- **Resultado:** Redução de incidentes, maior visibilidade via logs e eficiência operacional [16, 17].
+## ⚙️ Automação de Processamentos Financeiros (SRM Asset)
+- **Cenário:** Processos manuais de validação de integrações geravam incidentes recorrentes.
+- **Ação:** Desenvolvimento de uma solução em **Java** integrada ao **SQL Server** para monitoramento automático de fluxos de dados via SFTP e APIs [5].
+- **Resultado:** Redução drástica de falhas operacionais e maior rastreabilidade via logs centralizados.
 
-## 🏗️ Projeto 2: Implantação de Sistemas em Ambiente Regulado
-- **Cenário:** Necessidade de implantar novos sistemas críticos com aderência às normas do mercado financeiro [6, 21].
-- **Ação:** Liderança técnica no levantamento de requisitos, mapeamento de fluxos AS-IS/TO-BE e coordenação de GMUDs [2, 24].
-- **Resultado:** Entrega com alta qualidade, conformidade regulatória e documentação funcional completa [25, 26].
-
-## 🛡️ Projeto 3: Sustentação de Aplicações Críticas
-- **Atividade:** Gestão de sustentação para SRM Asset e outros parceiros, com foco em estabilidade e disponibilidade [9, 27, 28].
+## 🏗️ Implantação de Sistemas em Ambiente Regulado
+- **Atuação:** Liderança na execução de **GMUDs** complexas, garantindo plano de rollback e comunicação entre áreas técnica e de negócio [5, 6].
+- **Foco:** Garantia de disponibilidade e conformidade com as exigências do mercado financeiro.
